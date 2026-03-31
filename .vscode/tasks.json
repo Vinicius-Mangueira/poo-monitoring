@@ -7,14 +7,19 @@
       "command": "g++",
       "args": [
         "-g",
-        "*.cpp",
+        "src/*.cpp",
+        "-I",
+        "include",
         "-o",
         "program"
       ],
       "group": {
         "kind": "build",
         "isDefault": true
-      }
+      },
+      "problemMatcher": [
+        "$gcc"
+      ]
     }
   ]
 }
