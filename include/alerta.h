@@ -34,3 +34,4 @@ public:
      */
     void disparar() const;
 };
+#endif // ALERTA_H
